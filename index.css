@@ -18,7 +18,9 @@ header{
     align-items: center;
     flex-direction: row;
     padding: 20px 50px;
-    font-family: 'Chewy', cursive;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    /* font-family: 'Chewy', cursive;   */
         
 }
 
