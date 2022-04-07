@@ -37,23 +37,27 @@ header{
     /* background-color: black;
     border-radius: 25px; */
 }
-h1:hover{
+
+.container-logo:hover{
     color: black;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .container-logo{
     display: flex;
     align-items: center;
+    transition: all 0.3s;
 }
 
 .logo-texto {
     margin-left: 20px;
 }
 
-.menu li {
-    display: inline-block;
-    margin: 0 10px;
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 5px;
 }
 
 .menu li a{
