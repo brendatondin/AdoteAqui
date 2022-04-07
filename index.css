@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-/* header {
-    width: 100%;
-    background-color: #4287f5;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 6px 0;
-
-} */
 /* header */
 header{
     width: 100%;
@@ -34,13 +25,11 @@ header{
 .logo-imagem {
     width: 80px;
     height: 50px;
-    /* background-color: black;
-    border-radius: 25px; */
 }
 
 .container-logo:hover{
     color: black;
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 .container-logo{
